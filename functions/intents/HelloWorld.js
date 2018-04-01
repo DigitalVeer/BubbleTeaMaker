@@ -5,8 +5,8 @@ const lib = require('lib');
 * @param {string} name Your name
 * @returns {string}
 */
-module.exports = (name = 'World', callback) => {
+module.exports = (name, callback) => {
 
-  return callback(null, `Hello ${name}`);
+  return callback(null, `Making tea for ${name}`);
 
 };
